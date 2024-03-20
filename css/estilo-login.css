@@ -1,0 +1,76 @@
+/*formulario login*/
+
+.formulario-l{
+    
+    width: 400px;
+    height: 400px;
+    margin:35px;
+    
+}
+/*contenido del formulario*/
+.contenedor-l{
+    width: 100%;
+    padding: 15px;
+}
+
+
+h1{
+    margin: 25px;
+    text-align: center;
+    color: peru;
+    font-size: 30px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+.button{
+    
+    border: none;
+    width: 80%;
+    color: white;
+    font-size: 20;
+    background:  peru;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: chocolate;
+}
+#texto-login{
+    font-size: medium;
+    color: white;
+    width: 80%;
+    text-align: center;
+}
+.link{
+    font-size: small;
+    text-decoration: none;
+      color: white;
+    font-weight: 600;
+}
+.link:hover{
+     color: #A86A2D;
+}
+@media(min-width:768px)
+{
+    .formulario-l{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+

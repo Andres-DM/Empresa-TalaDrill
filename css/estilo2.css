@@ -1,0 +1,66 @@
+/*cajas de la pagina productos*/
+.Items{
+
+    
+    width: 100vh;
+    width: 250px;
+    height: 400px;
+
+}
+.fondo-c2p{
+    order: 2;
+    flex-grow: 5;
+    flex-basis: 70%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+/*texto e imajenes de la pagina productos*/
+#titulo-producto
+{
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+    font-display: inherit;
+    color: #ffffff;
+    font: 100;
+
+}
+#descripcion
+{
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+    font-display: inherit;
+    color: #ffffff;
+    font: 100;
+
+
+}
+.botones-compra
+{
+
+    margin: 15px;
+    border: none;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    background:  #A86A2D;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.imajen-producto img
+{
+	width: 100vh;
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    height: 250px;
+}
